@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>海洋生物</title>
+<style type="text/css">
+.yy a {
+	font-family: "华光小标宋_CNKI";
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 3px 3px 4px #999
+}
+.yy .yy {
+	font-family: "华光小标宋_CNKI";
+	color: #FFF;
+	font-size: 50px;
+	text-shadow: 3px 3px 4px #999
+}
+.yy {
+	font-family: "华光小标宋_CNKI";
+	font-size: 50px;
+	text-shadow: 3px 3px 4px #999
+}
+.yyy {
+	color: #FFF;
+	position: fixed;
+	text-shadow: 3px 3px 4px #999
+}
+.yyy tr th table tr .yy p {
+	font-size: 40px;
+	text-shadow: 3px 3px 4px #999
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+    background: #5fe4db;
+	margin-bottom: 0px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #67F2DF;
+}
+a:active {
+	text-decoration: none;
+}
+.o {
+	position: fixed;
+}
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        .kuang{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+
+        }
+        .bubble{
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: inset 0 0 8px  #fff;
+	animation: flutter 0.5s infinite;
+	opacity: 0;
+	visibility: visible;
+        }
+        @keyframes flutter {
+            0%{
+                transform: translateX(0);
+                bottom: -100px;
+                opacity: 1;
+            }
+            50%{
+                transform: translateX(100px);
+                opacity: 0.5;
+            }
+
+            
+            100%{
+                transform: translateX(0px);
+                bottom: 100%;
+                opacity: 0;
+
+            }
+        }
+        .bubble:nth-child(1){
+            left: -10%;
+            width: 50px;
+            height: 50px; 
+            animation-duration: 9s;
+            animation-delay: 0.1s;
+        }
+        .bubble:nth-child(2){
+            left: 15%;
+            width: 20px;
+            height: 20px;
+            animation-duration: 6s;
+            animation-delay: 1.5s;
+
+        }
+        .bubble:nth-child(3){
+            left: 20%;
+            width: 60px;
+            height: 60px;
+            animation-duration: 10s;
+            
+
+
+        }
+        .bubble:nth-child(4){
+            left: 30%;
+            width: 30px;
+            height: 30px;
+            animation-duration: 5.5s;
+            animation-delay: 1.5s;
+
+        }
+        .bubble:nth-child(5){
+            left: 40%x;
+            width: 50px;
+            height: 50px;
+            animation-duration: 12s;
+            
+
+
+        }
+        .bubble:nth-child(6){
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            animation-duration: 6s;
+            animation-delay: 1s;
+
+        }
+        .bubble:nth-child(7){
+            left: 60%;
+            width: 40px;
+            height: 40px;
+            animation-duration: 8s;
+            animation-delay: 1s;
+
+        }
+        .bubble:nth-child(8){
+            left: 65%;
+            width: 60px;
+            height: 60px;
+            animation-duration: 15s;
+          
+        }
+        .bubble:nth-child(9){
+            left: 80%;
+            width: 55px;
+            height: 55px;
+            animation-duration: 9s;
+            animation-delay: 0.5s;
+            
+        }
+        .bubble:nth-child(10){
+            left: 100%;
+            width: 40px;
+            height: 40px;
+            animation-duration: 12s;
+
+        }
+        .allPage {
+      width: 1920px;
+				position: absolute;
+            top: 0;
+          left: 0;
+          animation: example5 1s ease-out 0s backwards;
+    }
+    @keyframes example5 {
+      0% {
+        transform: translate(-100px);
+        opacity: 0;
+      }
+
+      50% {
+        transform: translate();
+        opacity: 0.5;
+      }
+
+      100% {
+        transform: translate(0);
+        // opacity: 1;
+      }
+</style>
+</head>
+<body>
+    <div class="allPage">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <th height="160" class="o" scope="col"><img src="image/1海洋表格背景.jpg" width="1920" height="160" border="0" usemap="#Map2" /></th>
+  </tr>
+</table>
+<map name="Map" id="Map">
+  <area shape="rect" coords="705,306,816,406" href="index.html" />
+</map>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="418,7,558,158" href="index.html" />
+  <area shape="rect" coords="795,7,946,152" href="ocean resource.html" />
+  <area shape="rect" coords="1176,6,1332,152" href="ocean pollution.html" />
+  <area shape="rect" coords="1547,5,1713,153" href="ocean creature .html" />
+</map>
+<div class="kuang">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      <div class="bubble"></div>
+    </div>
+<img src="image/海洋生物改 拷贝.jpg" width="1920" height="7172" />
+</div>
+</body>
+</html>
